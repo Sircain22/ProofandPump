@@ -1,0 +1,1 @@
+{ "name": "@proof/database", "private": true, "type": "module", "exports": { ".": "./src/index.ts", "./schema": "./src/schema.ts" }, "scripts": { "typecheck": "tsc --noEmit" }, "dependencies": { "@proof/shared": "workspace:*", "drizzle-orm": "^0.45.0" } }
